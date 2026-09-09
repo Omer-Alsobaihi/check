@@ -1,0 +1,156 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	box-sizing: border-box;
+	
+}
+
+body{
+	background-image: url(../img/bg.png);
+}
+
+#cl:link, #cl:visited {
+	color: rgb(75, 75, 75);
+	background-color: rgb(200, 200, 200);
+	padding: 14px 25px;
+	font-size: x-large;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 10px;
+  }
+  
+  #cl:hover, #cl:active {
+	background-color: lightblue;
+	border-radius: 10px;
+  }
+
+  h1, #cl {
+	text-shadow: 2px 2px #ddd;
+	font-size:150%;
+  }
+
+#form{
+	background-color:white;
+	width:40%;
+	align-items: center;
+	margin:30px auto;
+	padding: 50px;
+	box-shadow: 10px 10px 5px rgb(44, 44, 44);
+	border-radius:6px;
+}
+
+#btn{
+	color:white;
+	background-color:rgb(109, 105, 98);
+	width:100%;
+	height: 35px;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: large;
+	border-radius: 10px;
+	border-color: gray;
+}
+
+#btn2{
+	color:white;
+	background-color:rgb(109, 105, 98);
+	width:30%;
+	height: 35px;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: large;
+	border-radius: 10px;
+	border-color: gray;
+}
+
+#head{
+	top: 0px;
+	background-color:lightgray;
+	color: rgb(82, 82, 82);
+	width:40%;
+	align-items: center;
+	margin:10px auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	box-shadow: 10px 10px 5px rgb(44, 44, 44);
+	text-shadow: 2px 2px #bbbbbb;
+	border-radius:6px;
+	font-size: xx-large;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+td {
+	padding-right:5px;
+	padding-left:5px;
+	padding-bottom:0px;
+	color: rgb(75, 75, 75);
+}
+
+#tn {
+
+	width: 30%;
+}
+
+#tv {
+	width: 70%
+}
+
+@media only screen and (max-width:800px){
+	
+	#head {
+		width:100%;
+		font-size: large;
+	}
+
+	#form {
+		width:100%;
+	}
+
+	#tw {
+		width: 40%;
+	}
+
+	#tn {
+	
+		width:30%;
+	}
+	
+	#tv {
+		width:70%;
+	}
+	
+	label {
+		font-size:20px;
+	}
+
+	table td {
+		color: rgb(75, 75, 75);
+	}
+
+	h1, #cl {
+		text-shadow: 2px 2px #ddd;
+		font: size 14px;;
+	  }
+	  
+	  #cl:link, #cl:visited {
+		color: rgb(75, 75, 75);
+		background-color: rgb(200, 200, 200);
+		padding: 14px 25px;
+		font-size:17px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		border-radius: 10px;
+	  }
+
+	  #map {
+		width : 20px;
+	  }
+
+}
